@@ -224,6 +224,17 @@ let electrumServers = {
       '136.243.45.140:50015'
     ],
   },
+  denarius: { // !estimatefee
+    address: 'electrumx1.denarius.pro',
+    port: 50001,
+    proto: 'tcp',
+    txfee: 10000,
+    abbr: 'D',
+    serverList: [
+      'electrumx1.denarius.pro:50001',
+      'electrumx2.denarius.pro:50001',
+    ],
+  },
   viacoin: { // !estimatefee
     address: '173.212.225.176',
     port: 50033,
